@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Tipo de letra */
+    background: linear-gradient(to right, #87CEFA, #B0E0E6); /* Degradado de fondo celeste */
+    margin: 0; /* Margen de la página */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo del título */
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Aplicar la fuente Montserrat */
+    text-align: center; /* Centrar el texto */
+    color: #291716; /* Color del texto */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo del formulario */
+form {
+    background: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Mostrar como bloque */
+    margin: 10px 0 5px; /* Margen superior e inferior */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo de las entradas de texto y área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el padding en el ancho */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #00BFB2
+; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    display: block; /* Mostrar como bloque */
+    width: 100%; /* Ancho completo */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+    background-color: #4cae4c; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo del área para mostrar datos */
+#display-data {
+    margin-top: 20px; /* Margen superior */
+    padding: 15px; /* Espaciado interno */
+    background: #e7f3fe; /* Color de fondo */
+    border-left: 6px solid #2196F3; /* Borde izquierdo azul */
+}
